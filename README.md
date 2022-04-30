@@ -45,9 +45,11 @@ print(trailer)
 
 #### Get Episode Link / Num:
 ```python
->> from PyAnime import GetEpisodes
+from PyAnime import GetEpisodes
 
-TODO
+all_eps = GetEpisodes("https://anime4up.art/anime/death-note/").all_eps()
+print(all_eps)
+
 ```
 
 #### Get Download Links :
