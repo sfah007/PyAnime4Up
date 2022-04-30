@@ -21,9 +21,26 @@ print(result)
 
 #### Get Anime Info :
 ```python
->> from PyAnime import Show
+from PyAnime import Show
 
-TODO
+title = Show("https://anime4up.art/anime/death-note/").title()
+print(title)
+
+info = Show("https://anime4up.art/anime/death-note/").info()
+print(info)
+
+category = Show("https://anime4up.art/anime/death-note/").category()
+print(category)
+
+story = Show("https://anime4up.art/anime/death-note/").story()
+print(story)
+
+image = Show("https://anime4up.art/anime/death-note/").image()
+print(image)
+
+trailer = Show("https://anime4up.art/anime/death-note/").trailer()
+print(trailer)
+
 ```
 
 #### Get Episode Link / Num:
