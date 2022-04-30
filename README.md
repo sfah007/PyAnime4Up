@@ -12,9 +12,11 @@ pip3 install PyAnime4Up
 ## ❓ Usage :
 #### Search :
 ```python
->> from PyAnime import Anime
+from PyAnime import Anime
 
-TODO
+result = Anime().search("death")
+print(result)
+
 ```
 
 #### Get Anime Info :
