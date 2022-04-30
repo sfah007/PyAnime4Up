@@ -54,9 +54,11 @@ print(all_eps)
 
 #### Get Download Links :
 ```python
->> from PyAnime import Episode
+from PyAnime import Episode
 
-TODO
+dl_links = Episode("https://anime4up.art/episode/death-note-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-37-wxpbu/").dl_links()
+print(dl_links)
+
 ```
 
 ## 🪐 Credits:
